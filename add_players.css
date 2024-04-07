@@ -1,0 +1,86 @@
+/* Undertale-Inspired Pixel Art Theme with Grayscale Palette */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive; /* Retro pixel font */
+    background: #F5F5F5; /* Milk white background for a light feel */
+    color: #000000; /* Black text for contrast */
+    text-align: center;
+    image-rendering: pixelated; /* Gives the pixel art effect */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .div1, #gg1, #gg2 {
+    border: 4px solid #000000; /* Black border for contrast */
+    background: #BEBEBE; /* Medium gray for containers, reminiscent of Undertale's UI */
+    padding: 20px;
+    margin: 10px;
+    image-rendering: pixelated; /* Enhances the pixel art effect */
+  }
+  
+  input[type="text"], button {
+    font-family: 'Press Start 2P', cursive;
+    background: #808080; /* Dark gray for input fields and buttons */
+    border: 1px solid #000000; /* Black border for contrast */
+    color: #FFFFFF; /* White text for contrast */
+    padding: 10px;
+    margin: 10px 0;
+    image-rendering: pixelated; /* Enhances the pixel art effect */
+  }
+  
+  button {
+    background: #696969; /* Darker gray for buttons */
+    color: #FFFFFF; /* White text for contrast */
+    image-rendering: pixelated; /* Enhances the pixel art effect */
+  }
+  
+  button:hover {
+    background: #505050; /* Even darker gray on hover */
+    image-rendering: pixelated; /* Enhances the pixel art effect */
+  }
+  
+  h1 {
+    font-size: 24px;
+    image-rendering: pixelated; /* Enhances the pixel art effect */
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #000000; /* Black border */
+    background-color: #808080; /* Dark gray */
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    image-rendering: pixelated; /* Enhances the pixel art effect */
+  }
+  
+  .back-button:hover {
+    background-color: #696969; /* Darker gray on hover */
+    image-rendering: pixelated; /* Enhances the pixel art effect */
+  }
+  
+  .key {
+    font-weight: bold;
+    color: #000000; /* Black for key commands */
+    image-rendering: pixelated; /* Enhances the pixel art effect */
+  }
+  
+  /* Additional styles for other elements as needed */
+  
